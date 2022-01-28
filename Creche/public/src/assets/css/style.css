@@ -1,0 +1,544 @@
+*{
+    font-family: Dosis SemiBold;
+}
+.jumbotron{
+    border-radius: 0;
+}
+#active{
+    color:rgb(24, 148, 216) !important;
+    border-bottom: rgb(24, 148, 216) solid 2px;
+}
+.barra-icon{
+    display:inline-flex;
+}
+.barra-icon .linha{
+    width: 40px;
+    margin: 10px;
+    height: 3px;
+    background-color: rgb(244, 180, 0);
+    border-radius: 100px;
+}
+/*----------------------Topo---------------------*/
+#nav-topo{
+    background-color:#000000; 
+    color: rgb(242, 236, 236);
+    height: 40px;
+} 
+#nav-topo li a{
+    font-family: Dosis SemiBold;
+    font-size: 0.9em;
+    color: rgb(242, 236, 236);
+}
+#caixa-busca{
+    font-family: Dosis SemiBold;
+    font-size: 0.9em; 
+    color: rgb(242, 236, 236);
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+#nav-principal{
+    font-family: Dosis SemiBold;
+    position: relative;
+    background-color: #ffffff !important;
+    box-shadow: #000000 0px 0px 1px;
+}
+#nav-principal ul li a{
+    font-size: 16px;
+    font-weight:500;
+    color:#000000;
+}
+
+.banner{
+    width: 100%;
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/banner/banner3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#banner .container{
+    padding-top: 100px;
+    padding-left: 60px;
+}
+#banner .container span, h1, .banner-first, .banner-second {
+    color: white;
+}
+#banner .container h1{
+    font-family: Dosis SemiBold;
+    font-size: 4em;
+    border-bottom: #ffffff solid 4px;
+    padding-bottom: 20px;
+    width: 200px;
+}
+#banner .container span{
+    font-family: Dosis SemiBold;
+    font-size: 1.7em;
+}
+#banner .container .banner-first, .banner-second{
+    font-family: Dosis SemiBold;   
+    font-size: 15px;   
+}
+#banner .container .banner-first{
+    padding-top: 20px;
+}
+#banner .container button{
+    font-family: Dosis SemiBold;
+    color:white !important;
+    border:#ffffff 1px solid;
+    border-radius: 50px;
+    font-size: 0.7em;
+    width: 130px;
+    height: 35px;
+    margin-top: 30px; 
+}
+
+/*----------------------Info---------------------*/
+.informations{      
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.informations .inf{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: space-around;
+    text-align: center;
+}
+.informations .inf img{
+    width: 20%;
+}
+.informations .inf .inf-title{
+    font-size: 1.25em;
+    color: rgb(24, 148, 216);
+    font-weight: 700;
+}
+.informations .inf .p-info{
+    padding-top: 10px;
+    font-size: 14px;
+    color: #585858;
+}
+.informations .inf #btn-info{
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 0.7rem; 
+    margin-top: -20px;
+}
+
+/*--------------------------Sobre----------------------------*/
+.about{
+    margin-top: 120px;
+}
+.about span{
+    font-weight: 700;
+    color: rgb(24, 148, 216);
+}
+.about .h2-about{
+    font-weight:700; 
+    padding-top: 5px;
+}
+.about .p-about, .p-about1{
+    color: #585858;
+    font-size: 15px;
+}
+.about .p-about{
+    padding-top: 20px;  
+}
+.about .p-about1{
+    padding-top: 0px;
+}
+.about .about-img1{
+    width: 500px;
+    height: 330px;
+    margin-top: 0px;
+}
+.about #btn-about{
+    color: white;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    font-size: 0.8rem; 
+    margin-top: 0px;
+}
+
+/*----------------------------Activities--------------------------*/
+.activities{
+    margin-top: 100px;
+    background-size: cover;
+    background-repeat: no-repeat no-repeat;
+    background-image: url('../img/banner/banner4.jpg');
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}
+.activities .h2-activities{
+    font-size: 1.8rem;
+    color: white;
+    padding-top: 40px;
+}
+.activities {
+    display: flex;
+    flex: wrap;
+}
+#activities #activities-col{
+    width: 300px;
+}
+#grid-activities{
+    margin-top: 40px;
+}
+#activities-col .circles{
+    margin-left: 140px;
+}
+#activities-col .act-circle{
+
+    width: 70px;
+    height: 70px;
+    border: white 2px solid;
+    border-radius: 100px;
+}
+#activities-col .h2-act{
+    color:white;
+    font-size: 1.1rem;
+    padding-top: 10px;
+}
+#activities-col .p-act{
+    color: white;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/*-----------------------Popular Courses---------------------------*/
+.courses{
+    margin-top: 80px;
+    text-align: center;
+}
+.courses .h2-courses{
+    font-size: 1.6rem;
+}
+.courses .p-courses{
+    padding-top: 20px;
+    font-size: 1rem;
+}
+.courses .box-curso{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box-curso .boxes1{
+    float: left;
+
+}
+.boxes1, .boxes3{
+    margin-top: 25px;
+}
+.boxes1 .col1{
+    width: 250px;
+    height: 170px;
+    border: none;
+    box-shadow:#e9e5e5 0px 0px 3px 0px;
+}
+.boxes1 .col1 #card1{
+    width: 100%;
+    height: 170px;
+
+}
+.boxes1 .col1:last-child{
+    margin-top: 20px;
+}
+.box2 .col2{
+    width: 370px;
+    height: 400px;
+    margin-left: 0px;
+}
+.box2 .col2 img{
+    width: 380px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 30px 0px 30px 0px;
+    margin-top: 13px;
+    margin-left: -5px;
+}
+.boxes3 .col3{
+    width: 250px;
+    height: 170px;
+    border: none;
+    box-shadow:#e9e5e5 0px 0px 3px 0px;
+}
+.boxes3 .col3:last-child{
+    margin-top: 20px;
+}
+.boxes3 .col3 #card3{
+    width: 100%;
+    height: 170px;
+}
+.h2-card1{
+    font-size: 1rem;
+    padding-top: 5px;
+}
+.p-card1{
+    font-size: 0.8rem;
+}
+
+/*--------------------Promotional Video---------------------*/
+#Promotional{
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+    background-image: url('../img/img4.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+#Promotional .h2-promotional{
+    padding-top: 50px;
+    color: rgb(247, 247, 247);
+    font-size: 20px;
+    font-weight: 600;
+}
+#Promotional .p-prom{
+    padding-top: 10px;
+    color: rgb(240, 240, 240); 
+    font-weight: 100;
+}
+#Promotional #prom-btn{
+    margin-top: 5px;
+    text-align: center;
+    color: rgb(240, 238, 238);
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    border:rgb(247, 247, 247) 2px solid;
+}
+
+/*--------------------Our Weekly Classes---------------------*/
+.classes{
+    width: 100%;
+    text-align: center;
+}
+.classes .h2-classes{
+    font-size: 1.8em;
+    padding-top: 30px;
+}
+.classes #class-nav {
+    color: #222222;
+    font-size: 0.8rem;
+    font-weight: 800;
+    font-family: Dosis SemiBold;
+}
+.classes #class-nav a{
+    color: #222222;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+.classes #class-card{ 
+    text-align: center;
+    border: none;
+    box-shadow: #d8d8d8 0px 0px 4px 0px; 
+    margin-top: 30px;
+}
+#borda-card{
+    width:40px;
+    height:2px; 
+    background-color:#555555; 
+    margin-left:135px;
+}
+#card-h2{
+    font-size: 1rem;
+    padding-top: 10px;
+}
+.classes #btn-classes{
+    margin-left: 500px;
+    margin-top: 30px;
+    width: 130px;
+    border-radius: 100px;
+    font-size: 0.7rem;
+    color: white;
+}
+/*----------------------Contador-----------------------*/
+#contador{
+    width: 100%;
+    height: 350px;
+    background-image: url('../img/img5.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    text-align: center;
+}
+#contador p{
+    color: rgba(243, 243, 243, 0.809);
+    font-weight: 200px;
+    font-size: 0.9rem; 
+    padding-top: 10px;
+}
+#contador #cont-list{
+    justify-content: center;
+    padding-top: 20px;
+}
+#contador #cont-list span{
+    font-size: 2rem;
+    padding-right: 10px;
+    color: white; 
+    border-bottom: rgb(244, 180, 0) 3px solid;
+}
+#contador #cont-list a{
+    font-size: 0.9rem;
+    padding-right: 80px;
+    color: rgba(243, 243, 243, 0.878);
+}
+/*--------------------------Staff-----------------------------*/
+.staff{
+    margin-top: 50px;
+    text-align: center;
+}
+.staff #teachers img{
+    margin-left: 80px;
+}
+.staff #staff-col2{
+    text-align: left;
+    height: 370px; 
+    margin-top: 25px; 
+    margin-left: -50px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    box-shadow: #d8d8d8 2px 0px 4px 0px; 
+}
+.staff span{
+    font-size: 0.9rem;
+    font-weight: bold; 
+}
+.staff .h2-col{
+    font-size: 0.9rem;    
+    font-weight: bold;
+    color: rgb(24, 148, 216);
+}
+.staff .p-teach{
+    font-size: 13px; 
+    color: #555555;
+}
+#linha-social{
+    margin-left:0px;
+    margin-top:-40px;
+    width: 535px;
+    height: 1px;
+    background-color: #cccccc;
+}
+.social .social-midias{
+    margin-top: -50px;
+}
+.staff .social-midias #btn-sn{
+    border-radius: 100px;
+    margin-top: -30px;
+    margin-right: 10px; 
+    width: 39px;
+    background-color: #bbbbbb;
+}
+
+/*-----------------------Our Blog--------------------------*/
+.blog{
+    text-align: center;
+    margin-top: 50px;
+}
+.blog .data{
+    width: 50px; 
+    height: 60px;
+    float: left; 
+    margin-left: -20px;
+}
+.blog .data p{
+    color: white; 
+    padding-top: 5px;
+}
+.blog .details span{
+    font-size: 1rem;
+}
+.blog .details p{
+    font-size: 0.9rem;
+    color: #585858;
+}
+
+/*----------------------Gallery-----------------------*/
+#gallery{
+    margin-top: 50px;
+    background-color: rgb(24, 148, 216);
+    text-align: center;
+}
+#gallery .h2-gallery{
+    color: white;
+    font-size: 1.7rem;
+}
+#gallery p{
+    color: white;
+    font-size: 0.9rem;
+}
+#gallery .gallery-photos .row .col-sm-2 img{
+    height: 200px;
+    margin-left: -38px; 
+}
+/*----------------------Rodapé-----------------------*/
+#rodape{
+    width: 100%;
+    height: 600px;
+    margin-top: -100px;
+    background-image: url('../img/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    clear: both;
+}
+#rodape .logo{
+    margin-top: 40px;
+    font-size: 1.7rem;
+}
+#rodape #caixa-busca{
+    width: 350px;
+    color:#d8d8d8;
+    border-bottom: 1.5px #d8d8d8 solid;
+    margin-top: 60px;
+    border-radius: 0px;
+}
+#rodape .foot-inf{
+    text-align: left;
+    margin-top: 40px;
+}
+#rodape .h2-foot{
+    font-size: 1rem;
+    color: white;
+}
+#rodape .p-foot{
+    padding-top: 15px; 
+    font-size: 0.8rem;
+    color: white
+}
+#rodape .social-midias{
+    margin-top: 50px;
+}
+#rodape .social-midias #btn-sn{
+    border-radius: 100px;
+    margin-top: -30px;
+    margin-right: 10px; 
+    width: 30px;
+    height: 30px;
+    background-color: #bbbbbb;
+}
+#rodape .foot-data{
+    color: #555555;
+    font-size: 0.8rem;
+    margin-top: -15px; 
+}
